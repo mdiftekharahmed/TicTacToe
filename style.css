@@ -191,7 +191,7 @@ body{
   touch-action: manipulation;
   box-shadow:0 0 1rem rgba(0,0,0,0.2);
 }
-/* .theme_btn {
+.theme_btn {
   position: absolute;
   top: 2rem;
   right: 2rem;
@@ -199,7 +199,7 @@ body{
   font-weight: 300;
   line-height: 1;
   padding: 1rem 1.6rem;
-} */
+} 
 
 .reset_game:hover,.theme_btn:hover,.new_game:hover {
   background-color: #1e293b;
