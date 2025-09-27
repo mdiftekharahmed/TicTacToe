@@ -3,11 +3,14 @@
 A simple Tic-Tac-Toe game implemented with three files: `index.html`, `style.css`, and `script.js`.  
 Works in any modern browser — no build tools required.
 
-## Repo structure
-/tic-tac-toe
-├─ index.html
-├─ style.css
-└─ script.js
+Project Structure
+-----------------
+
+tic-tac-toe/
+    index.html   - Main HTML file (game board & layout)
+    style.css    - Stylesheet (UI design)
+    script.js    - JavaScript logic (game rules)
+
 
 
 
@@ -44,54 +47,3 @@ Small project — feel free to:
 
 ## License
 MIT License — see `LICENSE` (or add the following notice in your repo):
-
-
-
-
-
-
-
-
-📂 Project Structure
---------------------
-tic-tac-toe/
-├── index.html   # Main HTML file (game board & layout)
-├── style.css    # Stylesheet (UI design)
-└── script.js    # JavaScript logic (game rules)
-
-✨ Features
------------
-- Two-player local game (X vs O)
-- Detects win or draw
-- Reset button for new game
-
-🚀 How to Run
--------------
-1. Clone or download this repository.
-2. Open index.html in any modern web browser.
-3. Play the game!
-
-🎮 How to Play
---------------
-- Player X starts first.
-- Click on an empty cell to place your mark.
-- The game announces the winner or a draw.
-- Use the Reset button to start over.
-
-📁 Files
---------
-- index.html → Holds the game structure (board, status, reset button).
-- style.css → Handles the look of the board and layout.
-- script.js → Contains the game logic (turns, win check, reset).
-
-🔮 Future Improvements
------------------------
-- Add AI for single-player mode
-- Add score tracking between rounds
-- Add animations and sound effects
-
-📜 License
------------
-This project is licensed under the MIT License.
-
-
