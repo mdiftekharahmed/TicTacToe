@@ -1,0 +1,214 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.dark{
+    background-color:#003C43;
+    color: #E3FEF7;
+
+
+
+    .box{
+        box-shadow:0 0 1rem rgba(0,0,0,0.2);
+        font-size: 10vmin;
+        font-weight: bold;
+        color:#E3FEF7;
+        background-color: #135D66;
+    }
+    #header{
+        color: rgb(255, 255, 255);
+        font-size: 5rem;
+    }
+    .reset_game,.theme_btn,.new_game {
+        background-color: #135D66;
+        border: 0 solid #e2e8f0;
+        border-radius: 1.5rem;
+        box-sizing: border-box;
+        color: #E3FEF7;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1.1rem;
+        font-weight: 300;
+        line-height: 1;
+        padding: 1rem 1.6rem;
+        text-align: center;
+        text-decoration: none #0d172a solid;
+        text-decoration-thickness: auto;
+        transition: all .1s cubic-bezier(.4, 0, .2, 1);
+        box-shadow: 0px 3px 5px rgba(166, 175, 195, 0.25);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        box-shadow:0 0 1rem rgba(0,0,0,0.2);
+    }
+    .theme_btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    .reset_game:hover,.theme_btn:hover,.new_game:hover {
+        background-color: #096b66;
+        color: #fff;
+        font-weight:600;
+        }
+
+    @media (min-width: 768px) {
+        .reset_game,.theme_btn,.new_game {
+            font-size: 1.125rem;
+            padding: 1rem 2rem;
+        }
+        }
+
+
+    
+}
+.light{
+    background-color: #DDF4E7;
+    color: #124170;
+
+
+    .box{
+        box-shadow:0 0 1rem rgba(0,0,0,0.2);
+        font-size: 10vmin;
+        font-weight: bold;
+        color:#0d172a;
+        background-color: #fff;
+    }
+    #header{
+        color: rgb(14, 42, 49);
+        font-size: 5rem;
+    }
+    .reset_game,.theme_btn,.new_game {
+        background-color: #fff;
+        border: 0 solid #e2e8f0;
+        border-radius: 1.5rem;
+        box-sizing: border-box;
+        color: #0d172a;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: 1;
+        padding: 1rem 1.6rem;
+        text-align: center;
+        text-decoration: none #0d172a solid;
+        text-decoration-thickness: auto;
+        transition: all .1s cubic-bezier(.4, 0, .2, 1);
+        box-shadow: 0px 3px 5px rgba(166, 175, 195, 0.25);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        box-shadow:0 0 1rem rgba(0,0,0,0.2);
+    }
+    .theme_btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    .reset_game:hover,.theme_btn:hover,.new_game:hover {
+        background-color: #1e293b;
+        color: #fff;
+        }
+
+    @media (min-width: 768px) {
+        .reset_game,.theme_btn,.new_game {
+            font-size: 1.125rem;
+            padding: 1rem 2rem;
+        }
+        }
+
+
+}
+
+body{
+    text-align: center;
+}
+.container{
+    height:70vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+.game{
+    height: 60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius:1rem;
+    border: none;
+    box-shadow:0 0 1rem rgba(0,0,0,0.2);
+    font-size: 10vmin;
+    font-weight: bold;
+    color:#0d172a;
+    background-color: #fff;
+}
+
+
+
+#header{
+    color: rgb(14, 42, 49);
+    font-size: 5rem;
+}
+
+
+
+/* CSS */
+.reset_game,.theme_btn,.new_game {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 3px 5px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow:0 0 1rem rgba(0,0,0,0.2);
+}
+/* .theme_btn {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: .2rem;
+  font-weight: 300;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+} */
+
+.reset_game:hover,.theme_btn:hover,.new_game:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .reset_game,.theme_btn,.new_game {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
