@@ -19,20 +19,13 @@ Works in any modern browser — no build tools required.
 - Simple, responsive layout that works on desktop and mobile
 
 ## How to run
-1. **Open locally**  
+**Open locally**  
    Simply open `index.html` in your browser (double-click or right-click → Open with...).
-
-2. **Or run a lightweight local server** (recommended if you want proper URL behavior):
-   - Using Python 3:
-     ```bash
-     python -m http.server 8000
-     ```
-     Then open `http://localhost:8000` in your browser.
 
 ## How to play
 - Click an empty cell to place the current player's mark (X or O).
 - The game automatically checks for a winner or a draw.
-- Click **Reset** to clear the board and start a new game.
+- Click **Reset Game** to clear the board and **New Game** for a new game.
 
 ## Files description
 - `index.html` — HTML markup and game board.
@@ -51,3 +44,54 @@ Small project — feel free to:
 
 ## License
 MIT License — see `LICENSE` (or add the following notice in your repo):
+
+
+
+
+
+
+
+
+📂 Project Structure
+--------------------
+tic-tac-toe/
+├── index.html   # Main HTML file (game board & layout)
+├── style.css    # Stylesheet (UI design)
+└── script.js    # JavaScript logic (game rules)
+
+✨ Features
+-----------
+- Two-player local game (X vs O)
+- Detects win or draw
+- Reset button for new game
+
+🚀 How to Run
+-------------
+1. Clone or download this repository.
+2. Open index.html in any modern web browser.
+3. Play the game!
+
+🎮 How to Play
+--------------
+- Player X starts first.
+- Click on an empty cell to place your mark.
+- The game announces the winner or a draw.
+- Use the Reset button to start over.
+
+📁 Files
+--------
+- index.html → Holds the game structure (board, status, reset button).
+- style.css → Handles the look of the board and layout.
+- script.js → Contains the game logic (turns, win check, reset).
+
+🔮 Future Improvements
+-----------------------
+- Add AI for single-player mode
+- Add score tracking between rounds
+- Add animations and sound effects
+
+📜 License
+-----------
+This project is licensed under the MIT License.
+
+
