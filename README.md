@@ -3,16 +3,14 @@
 A simple Tic-Tac-Toe game implemented with three files: `index.html`, `style.css`, and `script.js`.  
 Works in any modern browser — no build tools required.
 
-Project Structure
+##Project Structure
 -----------------
-
+```
 tic-tac-toe/
-    index.html   - Main HTML file (game board & layout)
-    style.css    - Stylesheet (UI design)
-    script.js    - JavaScript logic (game rules)
-
-
-
+├── index.html   - Main HTML file (game board & layout)
+├── style.css    - Stylesheet (UI design)
+└── script.js    - JavaScript logic (game rules)
+```
 
 ## Features
 - 2-player local game (Player X and Player O)
